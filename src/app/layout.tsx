@@ -10,7 +10,7 @@ const roboto = Roboto({
 });
 
 const sourceSerif = Source_Serif_4({
-  weight: "500",
+  weight: "300",
   subsets: ["latin"],
   variable: "--font-source-serif-4",
 });

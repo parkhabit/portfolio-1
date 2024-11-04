@@ -18,13 +18,16 @@
 
 html {
   font-family: var(--font-roboto);
+  color: var(--foreground);
 }
  
 h1 {
   font-family: var(--font-source-serif-4);
+  font-size: 8rem;
+  letter-spacing: -0.75rem;
+  line-height: 8rem;
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
 }
