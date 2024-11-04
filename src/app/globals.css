@@ -19,6 +19,7 @@
 html {
   font-family: var(--font-roboto);
   color: var(--foreground);
+  height: 100%;
 }
  
 h1 {
@@ -30,4 +31,14 @@ h1 {
 
 body {
   background: #808080;
+  height: 100%;
+}
+
+
+a {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #808080;
 }
