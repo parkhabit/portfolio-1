@@ -3,19 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FFD6E3;
+  --foreground: #26211E;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-source-serif-4: 'Source Serif 4', serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #FFD6E3;
+    --foreground: #26211E;
   }
+}
+
+html {
+  font-family: var(--font-roboto);
+}
+ 
+h1 {
+  font-family: var(--font-source-serif-4);
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
