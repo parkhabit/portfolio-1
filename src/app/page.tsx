@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ProjectCard from "../components/ProjectCard";
 import headspacePic from "../../public/images/headspace.png";
 
 export default function Home() {
@@ -24,22 +24,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 relative mt-2">
-          <a
-            href="https://github.com/parkhabit/headspace"
-            target="_blank"
-            className="flex flex-1 bg-slate-500 h-80"
-          >
-            <Image src={headspacePic} alt="Screenshot of headspace project" />
-          </a>
-          <div className="flex flex-1 bg-[#808080] relative">
-            <div className="bg-[#FFD6E380] absolute w-full h-full" />
-            <p>watch this space</p>
-          </div>
-          <div className="flex flex-1 bg-[#808080] relative">
-            <div className="bg-[#FFD6E380] absolute w-full h-full" />
-            <p>watch this space</p>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative mt-2">
+          <ProjectCard
+            link="https://github.com/parkhabit/headspace"
+            image={headspacePic}
+            alt="Screenshot of headspace project"
+          />
+          <ProjectCard link="" image={headspacePic} alt="" />
+          <ProjectCard link="" image={headspacePic} alt="" />
         </div>
       </main>
       <footer className="">
