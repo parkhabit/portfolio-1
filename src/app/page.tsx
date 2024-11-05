@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ProjectCard from "../components/ProjectCard";
+import DynamicHeading from "../components/DynamicHeading";
 import headspacePic from "../../public/images/headspace.png";
 
 export const metadata: Metadata = {
@@ -11,9 +12,7 @@ export default function Home() {
   return (
     <div className="flex flex-1 flex-col p-3 h-[100%]">
       <header className="flex flex-row justify-between sticky top-0 p-1">
-        <p className="text-sm">
-          Kitty Allen. Frontend Software Engineer, Sydney.
-        </p>
+        <DynamicHeading />
         <p className="text-sm">K—A</p>
       </header>
       <main className="pt-8">
