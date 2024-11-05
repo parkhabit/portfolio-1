@@ -13,6 +13,7 @@ const config: Config = {
         typewriter1: "typewriter1 18s steps(26, end) infinite",
         typewriter2: "typewriter2 18s steps(22, end) infinite",
         typewriter3: "typewriter3 18s steps(26, end) infinite",
+        caret: "caret 1s steps(1, end) infinite",
       },
       keyframes: {
         typewriter1: {
@@ -23,10 +24,10 @@ const config: Config = {
             width: '0',
           },
           '20%': {
-            width: '14rem',
+            width: '12rem',
           },
           '30%': {
-            width: '14rem',
+            width: '12rem',
           },
           '40%': {
             width: '0',
@@ -43,10 +44,10 @@ const config: Config = {
             width: '0',
           },
           '50%': {
-            width: '12rem',
+            width: '10.2rem',
           },
           '60%': {
-            width: '12rem',
+            width: '10.2rem',
           },
           '70%': {
             width: '0',
@@ -63,13 +64,24 @@ const config: Config = {
             width: '0',
           },
           '80%': {
-            width: '13.5rem',
+            width: '11.5rem',
           },
           '90%': {
-            width: '13.5rem',
+            width: '11.5rem',
           },
           '100%': {
             width: '0',
+          },
+        },
+        caret: {
+          '0%': {
+            opacity: '0',
+          },
+          '50%': {
+            opacity: '1',
+          },
+          '100%': {
+            opacity: '0',
           },
         }
       },
