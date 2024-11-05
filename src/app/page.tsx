@@ -13,15 +13,14 @@ export default function Home() {
       <main className="pt-8">
         <h1>Kitty Allen — Frontend Software Engineer, Sydney.</h1>
 
-        <div className="grid grid-cols-3 gap-4 relative mt-20">
-          <div></div>
-          <p className="flex justify-end items-end">Personal work. ↴</p>
-
-          <div className="flex flex-col">
+        <div className="mt-20 gap-4 md:flex md:flex-row-reverse md:justify-between">
+          <div className="flex flex-col md:flex-1">
             <a href="mailto: k.allen91@gmail.com">email</a>
             <a href="https://www.linkedin.com/in/kitty-allen/">linkedin</a>
             <a href="https://github.com/parkhabit">github</a>
           </div>
+          <p className="mt-10 md:flex md:flex-1">Personal work. ↴</p>
+          <div className="md:flex md:flex-1"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative mt-2">
