@@ -1,9 +1,15 @@
+import type { Metadata } from "next";
 import ProjectCard from "../components/ProjectCard";
 import headspacePic from "../../public/images/headspace.png";
 
+export const metadata: Metadata = {
+  title: "Kitty Allen",
+  description: "Portfolio website for Kitty Allen",
+};
+
 export default function Home() {
   return (
-    <div className="bg-[#FFD6E3] flex flex-1 flex-col p-3 h-[100%]">
+    <div className="flex flex-1 flex-col p-3 h-[100%]">
       <header className="flex flex-row justify-between sticky top-0 p-1">
         <p className="text-sm">
           Kitty Allen. Frontend Software Engineer, Sydney.

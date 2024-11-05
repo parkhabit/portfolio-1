@@ -11,14 +11,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #FFD6E3;
-    --foreground: #26211E;
+    --background: #26211E;
+    --foreground: #FFD6E3;
   }
 }
 
 html {
   font-family: var(--font-roboto);
-  color: var(--foreground);
+  background: #808080;
   min-height: 100%;
 }
  
@@ -41,7 +41,6 @@ h1 {
 }
 
 body {
-  background: #808080;
   height: 100%;
 }
 
