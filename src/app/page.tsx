@@ -37,6 +37,29 @@ export default function Home() {
           <ProjectCard link="" image={headspacePic} alt="" />
           <ProjectCard link="" image={headspacePic} alt="" />
         </div>
+        <div className="md:grid md:grid-cols-3">
+          <div />
+
+          <div>
+            <h2 className="pt-16 pb-16">Work history</h2>
+          </div>
+          <div className="md:pt-40">
+            <p className="font-mono text-xs">Aug 2023 - Jun 2024</p>
+            <p>eMed, London - Software Engineer</p>
+            <p className="font-mono text-xs pt-2">Jan 2021 - Aug 2023 </p>
+            <p>Babylon, London - Software Engineer</p>
+            <p className="font-mono text-xs pt-2">Apr 2019 - Jan 2021</p>
+            <p>Reed.co.uk, London - Software development engineer</p>
+            <p className="font-mono text-xs pt-2">Apr 2018 - Jan 2019</p>
+            <p>Reed.co.uk, London - Junior Frontend Developer</p>
+            <p className="font-mono text-xs pt-2">Mar 2018 - Apr 2018</p>
+            <p>DWYL, London - Junior Frontend Developer</p>
+
+            <h3 className="font-mono pt-8">Education</h3>
+            <p>Founders & Coders fullstack development course</p>
+            <p>BA Hons 2:1 University of Sydney</p>
+          </div>
+        </div>
       </main>
       <footer className="">
         {/* TODO:  Ability to scroll to the top of the page */}
