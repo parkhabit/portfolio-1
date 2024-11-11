@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import ProjectCard from "../components/ProjectCard";
 import DynamicHeading from "../components/DynamicHeading";
-import headspacePic from "../../public/images/headspace.png";
+import headspace from "../../public/images/headspace.png";
+import banking from "../../public/images/banking.png";
 
 export const metadata: Metadata = {
   title: "Kitty Allen",
@@ -31,11 +32,17 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative mt-2">
           <ProjectCard
             link="https://github.com/parkhabit/headspace"
-            image={headspacePic}
+            image={headspace}
             alt="Screenshot of headspace project"
+            title="Meditation app"
           />
-          <ProjectCard link="" image={headspacePic} alt="" />
-          <ProjectCard link="" image={headspacePic} alt="" />
+          <ProjectCard
+            link="https://banking-neon-kappa.vercel.app/"
+            image={banking}
+            alt="Screenshot of a banking website"
+            title="Banking website"
+          />
+          <ProjectCard link="" image={headspace} alt="" />
         </div>
         <div className="md:grid md:grid-cols-3">
           <div />
