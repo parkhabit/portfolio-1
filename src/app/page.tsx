@@ -3,6 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import DynamicHeading from "../components/DynamicHeading";
 import headspace from "../../public/images/headspace.png";
 import banking from "../../public/images/banking.png";
+import hamper from "../../public/images/hamper.png";
 
 export const metadata: Metadata = {
   title: "Kitty Allen",
@@ -41,6 +42,12 @@ export default function Home() {
             image={banking}
             alt="Screenshot of a banking website"
             title="Banking website"
+          />
+          <ProjectCard
+            link="https://hamper-ochre.vercel.app/"
+            image={hamper}
+            alt="Screenshot of a Christmas Hamper website"
+            title="WIP: Christmas hamper website"
           />
           <ProjectCard link="" image={headspace} alt="" />
         </div>

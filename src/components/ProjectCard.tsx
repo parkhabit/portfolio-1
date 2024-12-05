@@ -16,7 +16,7 @@ export default function ProjectCard({
     return (
       <div className="flex flex-1 bg-[#808080] relative justify-center items-center">
         <div className="bg-[#FFD6E380] absolute w-full h-full" />
-        <p>watch this space</p>
+        <p>watch this space for more</p>
       </div>
     );
   }
