@@ -13,7 +13,7 @@ export default function DynamicHeading() {
         Design systems enthusiast
       </span>
 
-      <p className="text-xs pl-1">Sydney.</p>
+      <p className="text-xs pl-1">Melbourne.</p>
     </div>
   );
 }
